@@ -1,3 +1,3 @@
-FROM cp.icr.io/cp/ibm-mqadvanced-server-integration:9.2.4.0-r1
+FROM image-registry.openshift-image-registry.svc:5000/default/ibm-mqadvanced-server-integration
 COPY my.mqsc /etc/mqm/my.mqsc
 LABEL summary "My custom MQ image"
