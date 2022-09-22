@@ -1,3 +1,3 @@
-FROM cp.icr.io/cp/ibm-mqadvanced-server-integration:9.2.4.0-r1
+FROM ibmcom/mq:9.2.3.0-r1-amd
 COPY my.mqsc /etc/mqm/my.mqsc
 LABEL summary "My custom MQ image"
